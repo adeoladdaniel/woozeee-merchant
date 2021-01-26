@@ -1,0 +1,122 @@
+.back_to_port{
+    position: absolute;
+    right: 0;
+    color:red;
+    padding-right: 3rem;
+}
+.flex-container > div {
+    background-color: #FAEBFF;
+    /* width: 100%; */
+    margin: 10px;
+    padding: 1rem 5rem;
+    line-height: 20px;
+    font-size: 20px;
+    box-shadow: 5px 6px 0px 0.1rem #f1f1f161;
+    transition: 0.2s ease-in;
+  }
+
+  .flex-container > div:hover{
+      background-color: #AD49D2;
+      color: white;
+  }
+  .flex-container > div:active{
+    background-color: #AD49D2;
+    color: white;
+}
+.grow1
+{
+  border: solid 0.5px;
+  padding: 0.5rem 4rem 0.5rem 4rem;
+  color: purple;
+  background: white;
+  border-color: purple;
+  margin:1rem;
+}
+
+.grow2{
+  border: solid 0.5px;
+  padding: 0.5rem 4rem 0.5rem 4rem;
+  color: white;
+  background: #370863;
+  border-color:#370863;
+}
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 2rem;
+   
+  }
+  .cat_form {
+    display: initial !important;
+    width: 54rem !important;
+    border-radius: 0px;
+    font-size: 1.5rem;
+    margin-right: 6rem;
+    margin-left: 6rem;
+}
+  .user_section{
+    border: 2px solid;
+    border-color:#E0E0E0;
+    margin-top: 8rem;
+    padding: 3rem;
+
+  }
+  @media screen and (max-width:600px){
+      
+    .user_section{
+        width: max-content;
+
+  } 
+
+}
+@media screen and (max-width:600px){
+      
+  .back_to_port{
+     position: fixed;
+
+
+} 
+
+}
+ .user_but{
+  padding: 1rem 4rem 1rem 4rem !important;
+  position: initial !important;
+  right: 7rem !important;
+  color: #370863 !important;
+  font-size: 1rem !important;
+  background-color: white !important;
+  border-radius: 0px !important;
+  border-color: #370863 !important;
+  margin: 1rem;
+ }
+ .user_but:hover{
+    background-color: #370863;
+    border-color: #370863 ;
+ }
+ .user_but:active{
+    background-color: #370863;
+ }
+ table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border-spacing: 1rem;
+    width: 100%;
+  }
+  
+  td, th {
+    
+    text-align: left;
+    padding: 8px;
+    font-size:1.5rem;
+  }
+  .table_edit{
+
+    color: green;
+    margin: 1rem 2rem;
+  }
+  .table_delete{
+
+    color: red;
+    margin: 1rem 2rem;
+  }
+  

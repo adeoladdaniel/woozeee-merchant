@@ -1,0 +1,20 @@
+.dash-box{
+    background-color: #FCF5FF;
+    padding: 2rem 1rem 2rem 1rem;
+    width: 59%;
+    margin-top: 6rem;
+    box-shadow: 5px 2px 6px 3px #efefef;
+    transition: ease-in 1s;
+}
+.dash-box:hover{
+
+    background-color:#AD49D2 ;
+    color: white;
+}
+.merch{
+    border: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+    background: red;
+    color: white;
+}

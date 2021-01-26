@@ -1,0 +1,70 @@
+.buttts{
+    position: absolute;
+    right: 0;
+}
+.viewbut {
+    padding: 1.7rem 4rem 1.7rem 4rem;
+    border: none;
+    font-size: 1.3rem;
+    color: white;
+    background-color:  #033e7e!important;
+    margin: 0rem 4rem 2rem 3rem;
+}
+
+.editbut {
+    padding: 1.7rem 4rem 1.7rem 4rem;
+    border: none;
+    font-size: 1.3rem;
+    color: white;
+    background-color: red !important;
+}
+.store-table{
+    margin-top: 10rem;
+    background-color: white;
+}
+
+.store-img{
+    width: 15rem;
+    padding: 2rem;
+    border-radius: 10rem;
+}
+
+.store-name{
+    padding: 2rem;
+    text-transform: capitalize;
+}
+.second-class{
+    text-align: center;
+}
+.upload{ 
+    display: block;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    overflow: visible;
+    appearance: initial;
+    background-color: initial;
+    cursor: default;
+    align-items: baseline;
+    color: inherit;
+    text-align: start !important;
+    padding: initial;
+    border: initial;
+    z-index: 3;
+}
+.uploader{
+    padding: 1rem 5rem 1rem 5rem;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    background: #1d0027;
+    text-transform: capitalize;
+}
+.ck.ck-editor {
+    position: relative;
+    width: 90% !important;
+}
+.product-img{
+
+    height: 100px;
+} 

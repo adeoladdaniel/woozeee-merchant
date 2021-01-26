@@ -1,0 +1,25 @@
+.messagecard {
+  background-color: $seventh-color;
+  padding: 2rem;
+  height: 120px;
+
+  &:not(:first-child) {
+    margin-top: 2rem;
+  }
+
+  .messagecard__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  p {
+    color: $eighth-color;
+    font-size: 1.4rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}

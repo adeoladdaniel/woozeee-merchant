@@ -1,0 +1,158 @@
+.order_form {
+  display: initial !important;
+  width: 20rem !important;
+  border-radius: 0px;
+  font-size: 1.5rem;
+  border: none;
+  height: 4rem;
+  margin: -4rem 1rem 5rem 1rem;
+  /* margin-left: 5rem; */
+  padding: 1rem;
+}
+.order_former {
+  display: initial !important;
+  width: 80% !important;
+  border-radius: 0px;
+  font-size: 1.5rem;
+  border: none;
+  height:4zrem;
+  margin: -4rem 1rem 5rem 1rem;
+  /* margin-left: 5rem; */
+  padding: 1rem;
+}
+.order_former:focus{
+  outline:none
+}
+.order_form:focus{
+  outline:none
+}
+.order_text {
+  display: initial !important;
+  width: 20rem !important;
+  border-radius: 0px;
+  font-size: 1.5rem;
+  margin: -3rem -1rem 0rem 1rem;
+}
+ tr:nth-child(2) {
+    background-color: #033f7c05;
+  }
+  table th, .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+     border-top: 0px solid #dee2e6 !important;
+}
+  .order_but{
+    background-color: red !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 0px !important;
+    font-size: 1.3rem !important;
+    padding: 0.5rem 5rem 0.5rem 5rem !important;
+  }
+  .order_but1{
+    background-color: green !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 0px !important;
+    font-size: 1.3rem !important;
+    padding: 0.5rem 5rem 0.5rem 5rem !important;
+  }
+
+  .order_but2{
+    background-color: #ffc800 !important;
+    color: white !important;
+    border: none !important;
+   
+    border-radius: 0px !important;
+    font-size: 1.3rem !important;
+    padding: 0.5rem 6rem 0.5rem 6rem !important;
+  }
+  .order_but:hover{
+
+    background-color:white;
+    color: purple;
+    border-color: purple;
+  }
+  .order_img{
+    padding: 0rem 2rem 0rem 2rem;
+  }
+  .num{
+    margin: 2rem;
+  }
+  .spanner{
+    font-size: 2rem;
+  
+    color: black;
+    padding: 2rem;
+    transition: 0.5 ease-in;
+    margin: 2rem;
+    border-radius: 4rem;
+  }
+
+  .spanner1{
+    font-size: 2rem;
+    margin-left: 2rem;
+    background-color: purple;
+    color: white;
+    border-radius: 4rem;
+    padding: 2rem;
+    transition: 0.5 ease-in;
+  }
+
+  .spanner:active{
+    background-color: purple;
+    color: white;
+    
+  }
+  .pend{
+    padding-left: 42rem;
+    padding-right: 6rem;
+
+  }
+  .order_button{
+
+    border: none;
+    padding: 0.5rem 4rem 0.5rem 4rem;
+    border-radius: 6px;
+    
+  }
+  .order_head{
+
+    font-size: 1.5rem;
+  }
+
+  .order_button1{
+
+    border: none;
+    padding: 0.5rem 4rem 0.5rem 4rem;
+    border-radius: 6px;
+    background-color: white;
+    
+  }
+  .search_but{
+
+    padding: 1rem 5rem 1rem 5rem;
+    border: none;
+    font-size: 1.5rem;
+    background:red ;
+    color: #ffffff;
+  }
+
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 7px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  .pagination a.active {
+    background-color:#1d0027;
+    color: white;
+    border-radius: 13rem;
+  
+  
+  
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;   border-radius: 13rem;}

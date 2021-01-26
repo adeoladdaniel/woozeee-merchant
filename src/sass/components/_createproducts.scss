@@ -1,0 +1,53 @@
+.cpheader{
+    background-color:#1d0027;
+    height: 10rem;
+}
+.cp_but {
+    padding: 1rem 4rem 1rem 4rem ;
+    position: absolute ;
+    right: 0;
+    color: white ;
+    font-size: 1.5rem ;
+    background-color:red;
+    border-radius: 0px ;
+    border:none;
+    margin: 1rem;
+}
+.cp-header{
+    text-align: center;
+    color: white;
+    padding-top: 5rem;
+}
+.cp-but {
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    position: absolute;
+    right: 0;
+    border: none;
+    color: #1d0027;
+    background: white;
+    font-size: 1.5rem;
+    margin: -4rem 1rem 0rem 1rem;
+}
+
+.side-form1 {
+    margin: 1rem 0rem 0rem 0rem;
+    width: 93%;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 2rem 1.75rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+    .side-form1:focus{
+            outline: none;
+            border-color: #4285f4;
+            box-shadow: 0 1px 0 0 #4285f4;
+    }

@@ -1,0 +1,102 @@
+.sidenav {
+  background-color: white;
+  height: 100%;
+  position: fixed;
+  width: 256px;
+  padding: 2rem 0;
+
+  .email {
+    padding-top: 0.5rem;
+    font-size: 1.6rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+  }
+
+  .active {
+    color: #033e7e !important;
+  }
+
+  nav {
+    position: relative;
+    height: 100%;
+  }
+
+  .navigation {
+    padding: 3rem;
+    list-style: none;
+
+    li {
+      a {
+        color: #033e7e;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        transition: 0.5s ease-in;
+        span {
+          display: inline-block;
+
+          &:last-child {
+            padding-left: 2rem;
+          }
+        }
+
+        &:hover {
+          color: #033e7e;
+        }
+      }
+
+      &:not(:last-child) {
+        padding-bottom: 2rem;
+      }
+    }
+  }
+
+  .logo {
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .user-info {
+    position: absolute;
+    bottom: 3rem;
+    border-top: 1px solid #ffffff;
+    width: 100%;
+    padding: 3rem 0 1rem 3rem;
+
+    img {
+      border-radius: 50%;
+      height: 40px;
+    }
+
+    p {
+      color: $seventh-color;
+      font-size: 1.8rem;
+    }
+  }
+  .close-wrap {
+    display: none;
+
+    .close-nav {
+      color: #ffffff;
+      font-size: 2rem;
+      display: inline-block;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .sidenav {
+    transition: 1s ease-in-out;
+    width: 300px;
+
+    .close-wrap {
+      display: block;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sidenav {
+    width: 70%;
+  }
+}

@@ -1,0 +1,59 @@
+.adminrevenue {
+  margin-top: 4rem;
+  background-color: white;
+  padding: 2rem 2rem;
+
+  h2 {
+    font-weight: 600;
+  }
+
+  .revenue-categories {
+    display: flex;
+
+    .borderlesscard:not(:first-child) {
+      margin-left: 1rem;
+    }
+
+    .revenue-categories--card {
+      .borderlesscard__title {
+        font-size: 1.2rem;
+      }
+      .borderlesscard__desc {
+        display: inline-block;
+        font-size: 1.5rem;
+      }
+      .borderlesscard__small {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .activetab {
+    background-color: $second-color !important;
+    color: $seventh-color !important;
+  }
+
+  .revenue-graph {
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    padding: 2rem;
+    width: 100%;
+    overflow: auto;
+  }
+}
+
+@media screen and(max-width: 500px) {
+  .revenue-categories {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .revenue-categories--card {
+      width: 200px !important;
+      margin-left: 0 !important;
+
+      &:not(:first-child) {
+        margin-top: 2rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+// import abstracts
+@import "./abstracts/variable";
+
+// import base
+@import "./base/base";
+@import "./base/typography";
+
+// import components
+@import "./components/sidenav";
+@import "./components/detailcard";
+@import "./components/adminrevenue";
+@import "./components/borderlesscard";
+@import "./components/messagecard";
+@import "./components/_user";
+@import "./components/_createproducts";
+@import "./components/edit-store";
+
+// import layout
+@import "./layout/skipcontent";
+
+// import pages
+@import "./pages/admindashboard";
+
+@import "./pages/AdminMessage";
+
+@import "./pages/AdminOrder";
+
+@import "./pages/AdminUser";
+@import "./pages/store";
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+

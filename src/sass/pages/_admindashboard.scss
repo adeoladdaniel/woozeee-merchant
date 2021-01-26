@@ -1,0 +1,147 @@
+.revenue-categories--card {
+  width: 150px !important;
+}
+body{
+  background: rgb(0, 0, 0);
+}
+
+.btn-transparent {
+  background: transparent;
+  border: navajowhite;
+  color: $first-color;
+  font-size: 1.5rem;
+  outline: none;
+
+  &:focus {
+    border: none;
+    outline: none !important;
+  }
+}
+
+.products-messages {
+  display: flex;
+  margin-top: 3rem;
+
+  > div {
+    width: 50%;
+  }
+
+  .best-products {
+    background-color: $third-color;
+    padding: 2rem 2rem;
+
+    h2 {
+      font-weight: 600;
+    }
+
+    table {
+      th,
+      td {
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+
+      td:first-child {
+        display: flex;
+
+        img {
+          height: 50px;
+        }
+
+        span {
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.messages {
+  background-color: $third-color;
+  padding: 2rem 2rem;
+  margin-left: 2rem;
+
+  h2 {
+    font-weight: 600;
+  }
+
+  .btn-color2 {
+    color: $second-color !important;
+    margin-top: 2rem;
+  }
+}
+
+.orders {
+  padding: 2rem 0;
+
+  h2 {
+    padding-left: 2rem;
+  }
+
+  table {
+    td:first-child,
+    td:last-child,
+    th:first-child {
+      padding: 0 3rem;
+    }
+
+    tbody {
+      tr:nth-child(even) {
+        background-color: $third-color;
+      }
+
+      tr {
+        td {
+          padding-top: 1rem !important;
+          padding-bottom: 1rem !important;
+          tr:nth-child(even) {
+            background-color: #FAEBFF;
+          }
+          button {
+            background-color: transparent;
+            padding: 0.5rem 2rem;
+            border: 1px solid $first-color;
+
+            &:focus {
+              border: 1px solid $first-color;
+              outline: none;
+            }
+          }
+        }
+      }
+    }
+
+    th,
+    td {
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+
+    td:first-child {
+      display: flex;
+
+      img {
+        height: 50px;
+      }
+
+      span {
+        margin-left: 1rem;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 500px) {
+  .products-messages {
+    flex-wrap: wrap;
+
+    > div {
+      width: 100%;
+    }
+    .messages {
+      width: 100%;
+      margin-top: 2rem;
+      margin-left: 0;
+    }
+  }
+}
